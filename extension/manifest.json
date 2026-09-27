@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Mouse Buddy",
+  "version": "1.0.0",
+  "description": "A simple desktop mouse automation project.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "http://localhost:5000/*"
+  ]
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Mouse Buddy</title>
+
+</head>
+
+<body>
+
+    <h2>🐭 Mouse Buddy</h2>
+
+    <p>
+        Status:
+        <span id="status">Stopped</span>
+    </p>
+
+    <label for="duration">
+        Duration:
+    </label>
+
+    <select id="duration">
+
+        <option value="60">
+            1 Minute
+        </option>
+
+        <option value="300">
+            5 Minutes
+        </option>
+
+        <option value="600">
+            10 Minutes
+        </option>
+
+        <option value="1800">
+            30 Minutes
+        </option>
+
+        <option value="3600">
+            1 Hour
+        </option>
+
+    </select>
+
+    <br><br>
+
+    <button id="startBtn">
+        Start
+    </button>
+
+    <button id="stopBtn">
+        Stop
+    </button>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>
